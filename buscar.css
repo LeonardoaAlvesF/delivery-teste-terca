@@ -1,0 +1,313 @@
+*{
+    /*border: black solid 1px;*/
+    margin: 0px;
+    
+}
+* a{
+    text-decoration: none;
+}
+.titulo{
+  font-family: "Amiri", serif;
+}
+.texto{
+  font-family: "Anek Devanagari", sans-serif;
+}
+
+body{
+    background-color: #FFBA67;
+}
+nav{
+    width: 100%;
+    background-color: #FA4C4C;
+    display: flex;
+    
+}
+nav div{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin-left: 3%;
+}
+nav ul{
+    width: 100%;
+    column-count: 4;
+    list-style: none;  
+    
+}
+nav li{
+margin-left: 40%;
+font-size: 16px;
+
+}
+nav a{
+    color: white;
+    font-family: "Anek Devanagari", sans-serif;
+}
+nav a:hover{
+    font-size: 18px;
+    transition: 1s;
+}
+nav button{
+    text-align: center;
+    padding-top: 7px;
+    font-size: 15px;
+    margin-top: 1.3%;
+    margin-left: 5%;
+    height: 35px;
+    letter-spacing: .1em;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    font-family: "Anek Devanagari", sans-serif;
+    line-height: 1.5;
+    background-color: #FC3030;   
+}
+
+#all{
+width: 100%;
+background-image: url(luxa.org-opacity-changed-papel-de-parede-preto-e-cinza-hamburguer-09.webp);
+margin: 0;
+border: 0;
+margin-top: -3%;
+}
+
+.hamburguer{
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 400px 400px 400px ;
+  width: 80%;
+  column-gap: 10%;
+  
+}
+.hamburguer div{
+  background-color: #FA4C4C;
+  margin-bottom: 5%;
+  border-radius: 5%;
+  padding: 15px;
+}
+
+#titulo-pratos{
+  font-size: 65px;
+  font-weight: 400;
+  margin-top: 3%;
+  margin-left: 15%;
+  margin-bottom: 3%;
+}
+.hamburguer img{
+  width: 80%;
+  margin-bottom: 5%;
+  margin-right: 3%;
+}
+.imagem_botoes{
+  display: flex;
+  flex-direction: column;
+}
+.hamburguer div{
+  display: flex;
+  position: relative;
+}
+.hamburguer a{
+  background-color: #FC3030;
+  width: 17%;
+  height: 120%;
+  border-radius: 50%;
+}
+.hamburguer a:hover{
+  transition: 2s;
+  scale: 1.2;
+}
+.hamburguer a:hover svg{
+  width: 80%;
+  padding: 16% 8%;
+}
+.hamburguer svg{
+  position: absolute;
+  width: 12%;
+  padding: 3% 1.5%;
+}
+.info-burguer{
+  font-family: "Anek Devanagari", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 1.5px;
+  width: 50%;
+  height: 300px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+
+}
+.hamburguer-acomp{
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 400px 400px;
+  width: 80%;
+  column-gap: 10%;
+}
+.hamburguer-acomp img{
+  width: 80%;
+  margin-bottom: 5%;
+  margin-right: 3%;
+}
+.imagem_botoes-acomp{
+  display: flex;
+  flex-direction: column;
+}
+.hamburguer-acomp div{
+  display: flex;
+  position: relative;
+  background-color: #FA4C4C;
+  margin-bottom: 5%;
+  border-radius: 5%;
+  padding: 15px;
+}
+.hamburguer-acomp a{
+  background-color: #FC3030;
+  width: 16%;
+  height: 119%;
+  border-radius: 50%;
+}
+.hamburguer-acomp a:hover{
+  transition: 1s;
+  scale: 1.2;
+}
+.hamburguer-acomp a:hover svg{
+  width: 80%;
+  padding: 19% 11%;
+}
+.hamburguer-acomp svg{
+  position: absolute;
+  width: 10%;
+  padding: 3% 1.8%;
+}
+.titulo-pratos{
+  font-family:"Amiri", serif;
+  color: black;
+   font-weight: 500;
+   font-size: 25px;
+  margin-bottom: 4%;
+}
+.hamburguer-bebi{
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 400px 400px 400px ;
+  width: 80%;
+  column-gap: 10%;
+  
+}
+.hamburguer-bebi div{
+  background-color: #FA4C4C;
+  margin-bottom: 5%;
+  border-radius: 5%;
+  padding: 15px;
+}
+.hamburguer-bebi img{
+  width: 80%;
+  margin-bottom: 5%;
+  margin-right: 3%;
+}
+.hamburguer-bebi div{
+  display: flex;
+  position: relative;
+}
+.hamburguer-bebi a{
+  background-color: #FC3030;
+  width: 19%;
+  height: 119%;
+  border-radius: 50%;
+}
+.hamburguer-bebi a:hover{
+  transition:  1s;
+  scale: 1.2;
+}
+.hamburguer-bebi a:hover svg{
+  width: 75%;
+  padding: 20% 12%;
+}
+.hamburguer-bebi svg{
+  position: absolute;
+  width: 12%;
+  padding: 3% 2.5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.quantidade{
+  width: 50px;
+  text-align: center;
+  border: none;
+  border-radius: 5%;
+  font-size: 16px;
+  padding: 5px;
+  background-color: #FC3030;
+  color: white;
+  height: 11px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#end-bar{
+  display: flex;
+  background-color: #FA4C4C;
+  font-family: "Anek Devanagari", sans-serif;
+  align-content: space-between;
+  align-items: center;
+  margin-top: 3%;
+  color: white;
+  padding: 10px 10px;
+}
+
+#end-bar svg{
+  width: 10%;
+  margin-left: 2%;
+}
+#end-bar img{
+  width: 22%;
+}
+#end-bar div{
+  display: flex;
+  text-align: center;
+  vertical-align: middle;
+  width: 20%;
+}
+#end-bar a{
+  margin-left: 7%;
+  margin-top: 2%;
+  color: white;
+}
+

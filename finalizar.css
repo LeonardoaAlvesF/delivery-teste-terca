@@ -1,0 +1,241 @@
+* {
+    /*border: black solid 1px;*/
+    margin: 0px;
+
+}
+
+* a {
+    text-decoration: none;
+}
+
+nav {
+    width: 100%;
+    background-color: #FA4C4C;
+    display: flex;
+    position: relative;
+
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin-left: 3%;
+}
+
+nav ul {
+    width: 100%;
+    column-count: 4;
+    list-style: none;
+
+}
+
+nav li {
+    margin-left: 40%;
+    font-size: 16px;
+
+}
+
+nav a {
+    color: white;
+    font-family: "Anek Devanagari", sans-serif;
+}
+
+nav a:hover {
+    font-size: 18px;
+    transition: 1s;
+}
+
+nav button {
+    text-align: center;
+    padding-top: 7px;
+    font-size: 15px;
+    margin-top: 1.3%;
+    margin-left: 5%;
+    height: 35px;
+    letter-spacing: .1em;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    font-family: "Anek Devanagari", sans-serif;
+    line-height: 1.5;
+    background-color: #FC3030;
+}
+
+#all {
+    width: 100%;
+}
+
+#img-fundo {
+    position: absolute;
+    width: 100%;
+    height: 115%;
+}
+
+#login {
+    display: flex;
+    position: relative;
+    background-color: #FC3030;
+    width: 1300px;
+    height: 750px;
+    border-radius: 2rem;
+    margin-top: 2%;
+    margin-left: 8%;
+}
+#itens{
+    flex-direction: column;
+    background-color: #FC3030;
+    display: flex;
+    position: relative;
+    width: 550px;
+    height: 650px;
+    border-radius: 2rem;
+    margin-top: 5%;
+    margin-left: 3%;
+    border-right: #FA4C4C 3px solid;
+    border-top: #FA4C4C 3px solid;
+    border-bottom: #FA4C4C 3px solid;
+     
+}
+#itens div{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+#itens input{
+    height: 15px;
+    width: 30px;
+    margin-top: 5%;
+    margin-left: 5%;
+    background-color: #FA4C4C;
+    border: none;
+    color: white;
+}
+#itens img{
+    border-radius: 1rem;
+}
+#nome-pedido{
+    color: white;
+    font-family: "Anek Devanagari", sans-serif;
+}
+#forma-pagamento{
+    flex-direction: column;
+    background-color: #FA4C4C;
+    display: flex;
+    position: relative;
+    width: 550px;
+    height: 650px;
+    border-radius: 2rem;
+    margin-top: 5%;
+    margin-left: 9%;
+    text-align: center;
+}
+#forma-pagamento input{
+    width: 20px;
+    height: 20px;
+}
+#forma-pagamento img{
+    width: 30%;
+    margin-top: 10%;
+}
+#texto-finalize{
+    position: absolute;
+    color: white;
+    font-family: "Amiri", serif;
+    font-size: 50px;
+    margin-left: 29%;
+}
+
+
+
+
+
+
+
+
+
+#login button{
+    background-color: #FC3030;
+    border: none;
+    border-radius: 1rem;
+    color: white;
+    font-family: "Anek Devanagari", sans-serif;
+    height: 50px;
+    width: 200px;
+    margin-left: -3%;
+    transition: 1s;
+    font-size: large;
+    margin-top: -2%;
+
+}
+#login button:hover{
+    scale: 1.1;
+    transition: 1s;
+}
+#login a{
+    margin-left: 10%;
+    margin-top: 5%;
+    font-family: "Anek Devanagari", sans-serif;
+    color: white;
+    transition: 1s;
+    font-size: large;
+    
+}
+#login a:hover{
+    transition: 0.5s;
+    color: #f1acac;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#end-bar {
+
+    display: flex;
+
+    background-color: #FA4C4C;
+    font-family: "Anek Devanagari", sans-serif;
+    align-content: space-between;
+    align-items: center;
+    margin-top: 1.6%;
+    color: white;
+    padding: 10px 10px;
+}
+
+#end-bar svg {
+    width: 10%;
+    margin-left: 2%;
+}
+
+#end-bar img {
+    width: 22%;
+}
+
+#end-bar div {
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    width: 20%;
+}
+
+#end-bar a {
+    margin-left: 7%;
+    margin-top: 2%;
+    color: white;
+}

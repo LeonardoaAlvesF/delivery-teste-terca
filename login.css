@@ -1,0 +1,220 @@
+* {
+    /*border: black solid 1px;*/
+    margin: 0px;
+
+}
+
+* a {
+    text-decoration: none;
+}
+
+nav {
+    width: 100%;
+    background-color: #FA4C4C;
+    display: flex;
+    position: relative;
+
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin-left: 3%;
+}
+
+nav ul {
+    width: 100%;
+    column-count: 4;
+    list-style: none;
+
+}
+
+nav li {
+    margin-left: 40%;
+    font-size: 16px;
+
+}
+
+nav a {
+    color: white;
+    font-family: "Anek Devanagari", sans-serif;
+}
+
+nav a:hover {
+    font-size: 18px;
+    transition: 1s;
+}
+
+nav button {
+    text-align: center;
+    padding-top: 7px;
+    font-size: 15px;
+    margin-top: 1.3%;
+    margin-left: 5%;
+    height: 35px;
+    letter-spacing: .1em;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    font-family: "Anek Devanagari", sans-serif;
+    line-height: 1.5;
+    background-color: #FC3030;
+}
+
+#all {
+    width: 100%;
+}
+
+#img-fundo {
+    position: absolute;
+    width: 100%;
+    height: 89%;
+}
+
+#login {
+    position: relative;
+    background-color: #FA4C4C;
+    width: 600px;
+    height: 550px;
+    border-radius: 5%;
+    margin-top: 2%;
+    margin-left: 8%;
+
+}
+
+#titulo-login {
+    font-family: "Amiri", serif;
+    color: white;
+    font-size: 60px;
+    padding: 5% 10%;
+}
+
+#login-input {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: -6%;
+}
+
+#login-input div input{
+    border: none;
+    border-bottom: 2px solid #FC3030;
+    border-radius: 20;
+    background: none;
+    color: white;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 5px;
+    width: 80%;
+    height: 70px;
+    font-family: "Anek Devanagari", sans-serif;
+    transition: 1s;
+}
+input::placeholder{
+    color: white;
+    font-family: "Anek Devanagari", sans-serif;
+    font-size: large;
+}
+#login-input div input:focus {
+    border-bottom: 2px solid white;
+    outline: none;
+    scale: 1.05;
+    transition: 1s;
+}
+#login button{
+    background-color: #FC3030;
+    border: none;
+    border-radius: 1rem;
+    color: white;
+    font-family: "Anek Devanagari", sans-serif;
+    height: 50px;
+    width: 95px;
+    margin-left: 10%;
+    transition: 1s;
+    font-size: large;
+    margin-top: 8%;
+
+}
+#login button:hover{
+    scale: 1.1;
+    transition: 1s;
+}
+#login a{
+    margin-left: 10%;
+    margin-top: 5%;
+    font-family: "Anek Devanagari", sans-serif;
+    color: white;
+    transition: 1s;
+    font-size: large;
+    
+}
+#login a:hover{
+    transition: 0.5s;
+    color: #f1acac;
+    
+}
+
+#login-botoes{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#end-bar {
+
+    display: flex;
+
+    background-color: #FA4C4C;
+    font-family: "Anek Devanagari", sans-serif;
+    align-content: space-between;
+    align-items: center;
+    margin-top: 1.6%;
+    color: white;
+    padding: 10px 10px;
+}
+
+#end-bar svg {
+    width: 10%;
+    margin-left: 2%;
+}
+
+#end-bar img {
+    width: 22%;
+}
+
+#end-bar div {
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    width: 20%;
+}
+
+#end-bar a {
+    margin-left: 7%;
+    margin-top: 2%;
+    color: white;
+}
